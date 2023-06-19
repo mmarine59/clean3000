@@ -20,6 +20,21 @@
     box-sizing: border-box;
 }
 
+body {
+    text-align: center;
+    font-family: 'aryaregular';
+    h1 {
+        font-family: 'electrolizeregular';
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    p {
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
 .brand {
 background-color: rgba(61,61,51,255);
 
@@ -29,28 +44,22 @@ img  {
 }
 }
 
+
+button {
+    width: 100%;
+    height: 50px ;
+    margin-top: 10px;
+    background-color: #5cba4750;
+    border-radius: 10px;
+}
+
 .container {
     text-align: center;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 
-    h1 {
-        font-family: 'electrolizeregular';
-        text-align: center;
-        text-transform: uppercase;
-        text-decoration: underline;
-    }
 
-    p {
-        font-family: 'aryaregular';
-        font-weight: bold;
-        text-align: center;
-    }
-
-    label {
-        font-family: 'aryaregular';
-    }
 
     input {
         text-align: center;
@@ -71,34 +80,5 @@ img  {
         border-color: #5cba4750;
         background-color: rgb(199, 199, 199);
    }
-
-    button {
-        width: 100%;
-        height: 50px ;
-        margin-top: 10px;
-        background-color: #5cba4750;
-    }
 }
 
-.section {
-    text-align: center;
-    h1 {
-        font-family: 'electrolizeregular';
-        text-align: center;
-        text-transform: uppercase;
-        text-decoration: underline;
-    }
-
-    p {
-        font-family: 'aryaregular';
-        font-weight: bold;
-        text-align: center;
-    }
-}
-
-button {
-    width: 100%;
-    height: 50px ;
-    margin-top: 10px;
-    background-color: #5cba4750;
-}

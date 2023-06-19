@@ -31,7 +31,7 @@ VisitForm.addEventListener("submit", (e) => {
 
     let visit = new Visit(name, date, obs, sign1, sign2);
     visits.push(visit);
-    console.log(visits);
+    // console.log(visits);
   
     let visitsStringify = JSON.stringify(visits);
     localStorage.setItem("visits", visitsStringify);
