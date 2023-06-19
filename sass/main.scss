@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.brand {
+background-color: rgba(61,61,51,255);
+
+img  {
+    width: 100%;
+    padding: 20px 50px;
+}
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+
+    input {
+        text-align: center;
+        width: 100%;
+        height: 50px ;
+        border-color: #5cba4750;
+        background-color: rgb(199, 199, 199);
+    }
+
+    #obs {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    #obstext {
+        width: 100%;
+        height: 150px;
+        border-color: #5cba4750;
+        background-color: rgb(199, 199, 199);
+   }
+
+    button {
+        width: 100%;
+        height: 50px ;
+        margin-top: 10px;
+        background-color: #5cba4750;
+    }
+}
+

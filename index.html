@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clean3000</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    
-    
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
+  <body>
+    <header>
+      <div class="brand">
+        <img src="./img/logo-clean3000-transparent.png" alt="" />
+      </div>
+    </header>
 
+    <main>
+        <div class="container">
+      <h1>Avis de passage</h1>
+      <form action="" id="form">
+        <label for="name" class="name">Nom entreprise/ou client : </label>
+        <input type="name" required/>
 
+        <label for="date" class="date" required
+          >Notre technicien est intervenu pour l'entretien de la vitrerie le
+          :</label
+        >
+        <input type="date" required/>
 
+        <label for="text" class="obs" id="obs">Observations : </label>
+        <textarea name="obstext" id="obstext"></textarea>
+        <!-- <input type="text" id="obsinput" /> -->
 
+        <p>Merci de votre confiance.</p>
 
+        <label for="sign1">Signature du technicien : </label>
+        <input type="name" class="sign1" required/>
 
+        <label for="sign2">Signature du client/Cachet de l'entreprise</label>
+        <input type="name" class="sign2" required/>
 
+        <button type="submit">Valider</button>
 
-
-
-
-
-
-
-
-
-
+      </form>
+    </div>
+    </main>
 
     <script src="./js/bootstrap.js"></script>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
