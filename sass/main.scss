@@ -36,7 +36,7 @@ img  {
         font-weight: bold;
     }
 
-    #obstext {
+    #obsinput {
         width: 100%;
         height: 150px;
         border-color: #5cba4750;
@@ -49,5 +49,9 @@ img  {
         margin-top: 10px;
         background-color: #5cba4750;
     }
+}
+
+.visible {
+    display: block;
 }
 
