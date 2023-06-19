@@ -35,34 +35,16 @@ VisitForm.addEventListener("submit", (e) => {
   
     let visitsStringify = JSON.stringify(visits);
     localStorage.setItem("visits", visitsStringify);
-  
+
+      
     // Affichage des éléments dans le HTML
-    let visitDetails = document.querySelector(".container");
+    let visitDetails = document.querySelector(".section");
     visitDetails.innerHTML = `
     <h1>Récapitulatif</h1>
-      <p>Nom: ${name}</p>
-      <p>Date: ${date}</p>
-      <p>Observations: ${obs}</p>
-      <p>Signature 1: ${sign1}</p>
-      <p>Signature 2: ${sign2}</p>
+      <p>Nom:</p>  ${name}
+      <p>Date:</p> ${date}
+      <p>Observations:</p> ${obs}
+      <p>Signature 1:</p> ${sign1}
+      <p>Signature 2:</p> ${sign2}
     `;
   });
-  
-
-
-
-
-
-// let searchForm=document.querySelector(".search-form");
-//     searchForm.addEventListener("submit", (e) => {
-//         e.preventDefault();
-
-//         let name = document.querySelector(".searchClient").value;
-
-//         let visited = visits.find((visit) => {
-//             return visit.name == name;
-//         })
-//     })
-
-
-  

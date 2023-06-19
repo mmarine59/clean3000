@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'aryaregular';
+    src: url('../fonts/electrolize-regular-webfont.woff2') format('woff2'),
+         url('../fonts/electrolize-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'electrolizeregular';
+    src: url('../fonts/electrolize-regular-webfont.woff2') format('woff2'),
+         url('../fonts/electrolize-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     box-sizing: border-box;
 }
@@ -18,9 +36,20 @@ img  {
     margin-top: 20px;
 
     h1 {
+        font-family: 'electrolizeregular';
         text-align: center;
         text-transform: uppercase;
         text-decoration: underline;
+    }
+
+    p {
+        font-family: 'aryaregular';
+        font-weight: bold;
+        text-align: center;
+    }
+
+    label {
+        font-family: 'aryaregular';
     }
 
     input {
@@ -51,7 +80,25 @@ img  {
     }
 }
 
-.visible {
-    display: block;
+.section {
+    text-align: center;
+    h1 {
+        font-family: 'electrolizeregular';
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+
+    p {
+        font-family: 'aryaregular';
+        font-weight: bold;
+        text-align: center;
+    }
 }
 
+button {
+    width: 100%;
+    height: 50px ;
+    margin-top: 10px;
+    background-color: #5cba4750;
+}
